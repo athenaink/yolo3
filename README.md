@@ -7,6 +7,14 @@ A Keras implementation of YOLOv3 (Tensorflow backend) inspired by [allanzelener/
 
 ---
 
+## Setup
+
+``` sh
+conda create -n yolo3 python=3.6
+pip install -r requirements.txt
+python -m ipykernel install --user --name yolo3 --display-name "Python [conda env:yolo3]"
+```
+
 ## Quick Start
 
 1. Download YOLOv3 weights from [YOLO website](http://pjreddie.com/darknet/yolo/).
